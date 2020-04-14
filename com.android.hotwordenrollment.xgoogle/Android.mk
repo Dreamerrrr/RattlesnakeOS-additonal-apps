@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := app2
-LOCAL_SRC_FILES := XGoogleEnrollment.apk
+LOCAL_MODULE := com.android.hotwordenrollment.xgoogle
+LOCAL_SRC_FILES := com.android.hotwordenrollment.xgoogle.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MULTILIB := both
 LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
