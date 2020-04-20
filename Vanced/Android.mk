@@ -1,11 +1,3 @@
-LOCAL_PATH := $(call my-dir)
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := Vanced
-LOCAL_SRC_FILES := YouTubeVanced.apks
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MULTILIB := both
-LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
-LOCAL_MODULE_TARGET_ARCH := arm64
-
-include $(BUILD_PREBUILT)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0eabaedaf468ffbb13ab0029399c74e0e95a80fdae7fd1075887b47c8d2d51f
+size 279

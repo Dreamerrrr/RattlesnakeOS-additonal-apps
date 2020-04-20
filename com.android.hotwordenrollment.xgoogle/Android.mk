@@ -1,13 +1,3 @@
-LOCAL_PATH := $(call my-dir)
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := com.android.hotwordenrollment.xgoogle
-LOCAL_SRC_FILES := com.android.hotwordenrollment.xgoogle.apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MULTILIB := both
-LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
-LOCAL_MODULE_TARGET_ARCH := arm64
-LOCAL_PRIVILEGED_MODULE := true
-TARGET_OUT_DATA_APPS_PRIVILEGED := $(TARGET_OUT_DATA)/priv-app
-
-include $(BUILD_PREBUILT)
+version https://git-lfs.github.com/spec/v1
+oid sha256:be9244ddd6e580d291c199109505fcfd6dec0ef5d77da3d06d6636b9f87f923c
+size 428
