@@ -1,7 +1,7 @@
 CAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := com.google.android.googlequicksearchbox.apk
+LOCAL_MODULE := com.google.android.googlequicksearchbox
 LOCAL_SRC_FILES := com.google.android.googlequicksearchbox.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MULTILIB := both
